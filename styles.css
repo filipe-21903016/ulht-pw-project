@@ -1,0 +1,13 @@
+*{
+	box-sizing : border box;
+}
+
+.grid-layout{
+	display: grid;
+}
+
+#heroshot{
+	background-color: blue;
+	width: 100%;
+	height: 700px;
+}
