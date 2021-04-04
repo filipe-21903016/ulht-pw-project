@@ -2,10 +2,16 @@
 	box-sizing : border-box;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #f9f9f9;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
 }
 
 body{
 	background-color: #040714;
+	
 }
 
 .material-icons-outlined.md-18 { font-size: 18px; }
@@ -24,6 +30,7 @@ body{
 	transform: translate(-50%, -50%);
 }
 
+
 @keyframes pulse{
   25%  {
   	transform: scale(0.9);
@@ -32,6 +39,7 @@ body{
   	transform: scale(1.1);
   }
 }
+
 
 nav{
 	padding-left: 10px;
@@ -47,7 +55,6 @@ nav{
 }
 
 .navigation{
-	list-style:none;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -59,10 +66,6 @@ nav{
 	margin-right: 50px;
 }
 
-.navigation li a{
-	text-decoration: none;
-}
-
 
 #logo{
 	width: 10em;
@@ -71,12 +74,38 @@ nav{
 }
 
 
-#hero-container{
+.hero-container{
 	width: 100%;
 	height: 55em;
+}
+
+#hero1{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshot.jpg");
 	background-position: center;
 	background-size: cover;
+}
+
+#hero2{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/rick-and-morty.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+
+#hero3{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/simpsons.jpg");
+	background-position: top;
+	background-size: cover;
+}
+
+#hero4{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/m&c.jfif");
+	background-position: center;
+	background-size: cover;
+}
+
+.slide{
+	display: none;
 }
 
 .hero-text {
@@ -96,12 +125,68 @@ nav{
 }
 
 main{
-	
 	width: 100%;
 	height: 1000px;
 }
 
+.categoria-flex{
+	margin-top:20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.frame{
+	width:300px;
+	height:200px;
+	border-radius: 15px;
+	background-position: center;
+	filter: drop-shadow(0 0 0.3rem white);
+}
+
+
+.frame:hover{
+    transform: scale(1.1);
+}
+
+.frame[id*="indiana"]{
+	background-image: url("imgs/indiana.jpg");
+}
+
+.frame[id*="indiana"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/indiana.jpg");
+}
+
+.frame[id*="star-wars"]{
+	background-image: url("imgs/the-last-jedi.jpg");
+}
+
+.frame[id*="star-wars"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/the-last-jedi.jpg");
+}
+
+
+.movie-title{
+	text-align: center;
+	font-size: 0.9em;
+	transform: translateY(5.5em);
+	visibility: hidden;
+}
+
+.frame:hover .movie-title{
+	visibility: visible;
+}
+
+.categoria{
+	display: block;
+	margin-top: 2em;
+	margin-left: 1em;
+	font-size: 35px;
+}
+
+
 footer{
-	
 	text-align: center;
 }
+
+

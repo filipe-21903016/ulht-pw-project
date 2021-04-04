@@ -23,23 +23,169 @@
 	</nav>
 
 
-	<div id="hero-container" class="grid-item">
+	<div id="hero1" class="grid-item slide hero-container">
 		<div class="hero-text centered">
-			<h1>Rate your favorite shows!!</h1>
+			<h1>Rate your favorite shows!!!</h1>
 		</div>
 
 		<div id="hero-icon" class="centered">
 			<a href="" ><span id="expand-more" class="material-icons-outlined md-48">expand_more</span></a>
 		</div>
 	</div>
+
+	<div id="hero2" class="grid-item slide hero-container">
+		<div class="hero-text centered">
+			<h1>Rate your favorite shows!!!</h1>
+		</div>
+
+		<div id="hero-icon" class="centered">
+			<a href="" ><span id="expand-more" class="material-icons-outlined md-48">expand_more</span></a>
+		</div>
+	</div>
+
+
+	<div id="hero3" class="grid-item slide hero-container">
+		<div class="hero-text centered">
+			<h1>Rate your favorite shows!!!</h1>
+		</div>
+
+		<div id="hero-icon" class="centered">
+			<a href="" ><span id="expand-more" class="material-icons-outlined md-48">expand_more</span></a>
+		</div>
+	</div>
+
+
+	<div id="hero4" class="grid-item slide hero-container">
+		<div class="hero-text centered">
+			<h1>Rate your favorite shows!!!</h1>
+		</div>
+
+		<div id="hero-icon" class="centered">
+			<a href="" ><span id="expand-more" class="material-icons-outlined md-48">expand_more</span></a>
+		</div>
+	</div>
+
+
+
+
+	<script type="">
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+  		var i;
+  		var slides = document.getElementsByClassName("slide");
+  		for (i = 0; i < slides.length; i++) {
+    		slides[i].style.display = "none";
+  		}
+  		slideIndex++;
+  		if (slideIndex > slides.length) {slideIndex = 1}
+  				slides[slideIndex-1].style.display = "block";
+  				setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+	</script>
 	
 
 	<main class="grid-item">
 		
+		<div class="section">
+
+			<a href="" class="categoria">Ação</a>
+
+			<div class="categoria-flex">
+			
+				<a href="" target="_blank">
+					<div class="frame" id="indiana">
+						<div class="movie-title">
+							<h1>Indiana Jones</h1>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="" target="_blank"><div class="frame" id="indiana">
+					<div class="movie-title">
+						<h1>Indiana Jones</h1>
+					</div>
+				</div></a>
+			
+				<a href="" target="_blank"><div class="frame" id="indiana">
+					<div class="movie-title">
+						<h1>Indiana Jones</h1>
+					</div>
+				</div></a>
+			
+				<a href="" target="_blank"><div class="frame" id="indiana">
+					<div class="movie-title">
+						<h1>Indiana Jones</h1>
+					</div>
+				</div></a>
+			
+				<a href="" target="_blank"><div class="frame" id="indiana">
+					<div class="movie-title">
+						<h1>Indiana Jones</h1>
+					</div>
+				</div></a>
+
+
+			</div>
+		</div>
+
+
+		<div class="section">
+
+			<a href="" class="categoria">Ficção científica</a>
+
+			<div class="categoria-flex">
+			
+				<a href="" target="_blank">
+					<div class="frame" id="star-wars">
+						<div class="movie-title">
+							<h1>Star Wars: The Last Jedi</h1>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="" target="_blank"><div class="frame" id="star-wars">
+					<div class="movie-title">
+						<h1>Star Wars: The Last Jedi</h1>
+					</div>
+				</div></a>
+			
+				<a href="" target="_blank"><div class="frame" id="star-wars">
+					<div class="movie-title">
+						<h1>Star Wars: The Last Jedi</h1>
+					</div>
+				</div></a>
+			
+				<a href="" target="_blank"><div class="frame" id="star-wars">
+					<div class="movie-title">
+						<h1>Star Wars: The Last Jedi</h1>
+					</div>
+				</div></a>
+			
+				<a href="" target="_blank"><div class="frame" id="star-wars">
+					<div class="movie-title">
+						<h1>Star Wars: The Last Jedi</h1>
+					</div>
+				</div></a>
+
+
+			</div>
+		</div>
+
+
+
+		
 	</main>
 
 	<footer class="grid-item">
-		Made by Filipe Coutinho & Tomás Neto
+		
+		<a href="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&cc_load_policy=0" target="_blank">Made by Filipe Coutinho & Tomás Neto</a>
+				
+
+		
 	</footer>
 </body>
 </html>
