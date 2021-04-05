@@ -157,6 +157,38 @@ main{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/indiana.jpg");
 }
 
+.frame[id*="deadpool"]{
+	background-image: url("imgs/deadpool.png");
+}
+
+.frame[id*="deadpool"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/deadpool.png");
+}
+
+.frame[id*="batman"]{
+	background-image: url("imgs/batman.png");
+}
+
+.frame[id*="batman"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/batman.png");
+}
+
+.frame[id*="sniper"]{
+	background-image: url("imgs/sniper.png");
+}
+
+.frame[id*="sniper"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/sniper.png");
+}
+
+.frame[id*="soldado-ryan"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/soldado-ryan.png");
+}
+
+.frame[id*="soldado-ryan"]{
+	background-image: url("imgs/soldado-ryan.png");
+}
+
 .frame[id*="star-wars"]{
 	background-image: url("imgs/the-last-jedi.jpg");
 }
@@ -164,6 +196,39 @@ main{
 .frame[id*="star-wars"]:hover{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/the-last-jedi.jpg");
 }
+
+.frame[id*="harry-potter"]{
+	background-image: url("imgs/harry-potter.png");
+}
+
+.frame[id*="harry-potter"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/harry-potter.png");
+}
+
+.frame[id*="et"]{
+	background-image: url("imgs/et.png");
+}
+
+.frame[id*="et"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/et.png");
+}
+
+.frame[id*="armageddon"]{
+	background-image: url("imgs/armageddon.png");
+}
+
+.frame[id*="armageddon"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/armageddon.png");
+}
+
+.frame[id*="mib"]{
+	background-image: url("imgs/mib.png");
+}
+
+.frame[id*="mib"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/mib.png");
+}
+
 
 
 .movie-title{
