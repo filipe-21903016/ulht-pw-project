@@ -12,60 +12,32 @@
 	<title>Tv Crib</title>
 </head>
 <body>
-	<nav id="nav" class="grid-item">
-		<a href="index.html">
-		<img id="logo" src="imgs/logo-white.svg" alt="white logo">
-	</a>
 
-		<ul class="links">
-			<li><a href="movies.html">Movies</a></li>
-			<li><a href="series.html">Series</a></li>
-		</ul>
+	<nav id="nav" class="grid-item">
+			<a href="index.html">
+			<img id="logo" src="imgs/logo-white.svg" alt="white logo">
+			</a>
+			<ul class="links">
+				<li><a href="movies.html">Movies</a></li>
+				<li><a href="series.html">Series</a></li>
+			</ul>	
 	</nav>
 
-
-
-	<main class="show-main col-8">
-		<div class="iframe-container">
-			<iframe class="responsive-iframe" src="https://www.youtube.com/embed/HqOSLZl9GUo" frameborder="0"></iframe>
+	<div class="wrapper">
+		
+		<div class="trailer-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/WAdJf4wTC5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
+		<div class="cast-container"></div>
+		<!--<div class="movie-cover">
+			<img srcset="imgs/indiana-cover.jpg,
+						imgs/indiana-cover.jpg 0.5x" alt="Indiana Jones Movie Cover" src="imgs/indiana-cover.jpg">	
+		</div>-->
+		<img class="movie-cover" srcset="imgs/indiana-cover.jpg,
+						imgs/indiana-cover.jpg 0.5x" alt="Indiana Jones Movie Cover" src="imgs/indiana-cover.jpg">
 
-
-		<div class="movie-details-container col-8">
-			<div class="movie-cover"></div>
-
-			<div class="sinopse-container">
-				<h1>Sinopse</h1>
-				<p>
-During the Cold War, Indiana Jones and the young Mutt seek out the Crystal Skull, a mystical object of great value, but soon realize that they are not alone. Soviets led by the cruel Irina Spalko also want the object to try to take over the world through it.</p>
-			</div>
-
-
-			<div class="rating-container">
-				<h3>Indiana Jones and the Kingdom of the Crystal Skull</h3>
-				<h4>2008, Ação/Aventura</h4>
-
-				<div class="rating-popcorns">
-					<img id="popcorn" src="/imgs/popcorn.png" alt="">
-					<div>
-						<img class="single-popcorn" src="/imgs/single-popcorn.png" alt="">
-						<img class="single-popcorn" src="/imgs/single-popcorn.png" alt="">
-						<img class="single-popcorn" src="/imgs/single-popcorn.png" alt="">
-						<img class="single-popcorn" src="/imgs/single-popcorn.png" alt="">
-						<img class="single-popcorn" src="/imgs/single-popcorn.png" alt="">
-					</div>
-					
-				</div>
-			</div>
-
-
-
-
-		</div>
-
-	</main>
-
-	<div id="cast-container">
+		<div class="sinopse-container"></div>
+		<div class="ratings-container"></div>
 	</div>
 
 

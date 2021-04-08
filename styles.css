@@ -43,18 +43,17 @@ body{
   }
 }
 
-
 nav{
 	width: 100%;
 	top:0;
-	min-height: 8vh;
+	height: 8vh;
 	position: fixed;
 	display: flex;
 	align-items: center;
 	background-color: #040714;
 	justify-content: space-around;
 	z-index:1000;
-}
+	}
 
 .links{
 	display: flex;
@@ -255,138 +254,108 @@ footer{
 }
 
 
+.wrapper{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-auto-rows: minmax(200px, auto);
+		grid-gap: 5px;
+		position: relative;
+		margin-top: 8vh;
+}
 
 
-.iframe-container{
+
+.movie-cover{
+		grid-column: 1;
+		grid-row: 1;
+		background-color: green;
+		justify-self:center;
+		align-self: center;
+		max-width: 100%;
+		border-radius: 20px;
+		filter: drop-shadow(0 0 0.3rem white);
+}
+
+.sinopse-container{
+		grid-column: 2;
+		grid-row: 1;
+		background-color: gold;
+}
+
+.trailer-container{
 		position: relative;
 		width: 100%;
 		overflow: hidden;
 		padding-top: 56.25%;
-		margin-top: 8vh;
-	}
+		grid-column: 1/3;
+		grid-row: 2;
+		#background-color: plum;
+}
 
-	.responsive-iframe{
+
+.trailer-container > iframe{
 		position: absolute;
-		top:0;
-		left:0;
+		top: 0;
+		left: 0;
 		bottom: 0;
 		right: 0;
 		width: 100%;
-		height: 75%;
-		border: none;
-		border-radius: 10px;
+		height: 100%;
+		border:none;
+		border-radius: 20px;
 	}
 
-
+.cast-container{
+		grid-column: 1/3;
+		grid-row: 3;
+		background-color: blue;
+}
 
 
 @media only screen and (min-width: 768px) {
+	
+
 	#logo{
 		width: 9rem;
 	}
 
-  	/* For desktop: */
-  	.col-1 {width: 8.33%;}
-  	.col-2 {width: 16.66%;}
-  	.col-3 {width: 25%;}
-  	.col-4 {width: 33.33%;}
-  	.col-5 {width: 41.66%;}
-  	.col-6 {width: 50%;}
-  	.col-7 {width: 58.33%;}
-  	.col-8 {width: 66.66%;}
-  	.col-9 {width: 75%;}
-  	.col-10 {width: 83.33%;}
-  	.col-11 {width: 91.66%;}
-  	.col-12 {width: 100%;}
 
-
-  	.show-grid{
+	.wrapper{
 		display: grid;
-		grid-template-columns: auto auto auto;
+		grid-template-columns: repeat(4,1fr);
+		grid-auto-rows: minmax(400px, auto);
 	}
 
-
-	.show-main{
-		height: auto;
-		#background-color: red;
-		grid-column-start: 1;
-		grid-column-end: 3; 
+	.trailer-container{
+		grid-column: 2/4;
+		grid-row: 1/2;
 	}
 
-
-	.movie-details-container{
-		position: absolute;
-		width: 100%;
-		height: auto;
-		display: flex;
-		flex-direction: row;
-		margin-left:5rem;
+	.cast-container{
+		grid-column: 4;
+		grid-row: 1/3;
+		background-color: blue;
 	}
 
 	.movie-cover{
-		position: relative;
-		width: 12rem;
-		height: 14rem;
-		background-color: white;
-		border-radius: 10px;
-		background-image: url("imgs/indiana-cover.jpg");
-		filter: drop-shadow(0 0 0.3rem white);
+		grid-column: 1;
+		grid-row: 1;
 	}
-
 
 	.sinopse-container{
-		width: 50ch;
-		margin-left: 2.5rem;
+		grid-column: 1/3;
+		grid-row: 2;
+		background-color: gold;
 	}
 
-	.sinopse-container h1{
-		padding-top: 1rem;
+	.ratings-container{
+		grid-column: 3;
+		grid-row: 2;
+		background-color: pink;
 	}
 
-	.sinopse-container p{
-		padding-top: 2rem;
-		font-size: 1.2em;
-	}
-
-	.rating-container{
-		width: 24rem;
-		height: 14rem;
-		background-color: white;
-		margin-left: 7rem;
-		border-radius: 20px;
-		position: relative;
-	}
-
-	.rating-container h3{
-		color: black;
-		text-align: center;
-		margin-top: 3rem;
-	}
-	
-	.rating-container h4{
-		color:black;
-		text-align: center;
-	}
-
-	.rating-popcorns{
-		margin-top: 2rem;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-evenly;
-	}
-
-	#popcorn{
-		width: 64px;
-		height: 64px;
-		transform: rotate(25deg);
-	}
-
-	.single-popcorn{
-		width: 24px;
-		height:24px;
-	}
 }
+
 
 
 
