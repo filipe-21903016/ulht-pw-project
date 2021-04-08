@@ -260,7 +260,7 @@ footer{
 		grid-auto-rows: minmax(200px, auto);
 		grid-gap: 5px;
 		position: relative;
-		margin-top: 8vh;
+		margin-top: 8.3vh;
 }
 
 
@@ -273,7 +273,6 @@ footer{
 		align-self: center;
 		max-width: 100%;
 		border-radius: 20px;
-		filter: drop-shadow(0 0 0.3rem white);
 }
 
 .sinopse-container{
@@ -340,16 +339,17 @@ footer{
 	.movie-cover{
 		grid-column: 1;
 		grid-row: 1;
+		filter: drop-shadow(0 0 0.3rem white);
 	}
 
 	.sinopse-container{
-		grid-column: 1/3;
+		grid-column: 2/4;
 		grid-row: 2;
 		background-color: gold;
 	}
 
 	.ratings-container{
-		grid-column: 3;
+		grid-column: 1;
 		grid-row: 2;
 		background-color: pink;
 	}
