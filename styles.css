@@ -50,9 +50,9 @@ nav{
 	position: fixed;
 	display: flex;
 	align-items: center;
-	background-color: #040714;
 	justify-content: space-around;
 	z-index:1000;
+	background-color: #040714;
 	}
 
 .links{
@@ -256,29 +256,35 @@ footer{
 
 .wrapper{
 		display: grid;
-		grid-template-columns: repeat(2,1fr);
+		grid-template-columns: repeat(12,1fr);
 		grid-auto-rows: minmax(200px, auto);
-		grid-gap: 5px;
+		grid-gap: 0.3rem;
 		position: relative;
 		margin-top: 8.3vh;
 }
 
-
-
 .movie-cover{
-		grid-column: 1;
+		grid-column: 1/6;
 		grid-row: 1;
 		background-color: green;
 		justify-self:center;
 		align-self: center;
-		max-width: 100%;
+		max-width: 60%;
 		border-radius: 20px;
+		filter: drop-shadow(0 0 0.3rem white);
 }
 
-.sinopse-container{
-		grid-column: 2;
+.details-container{
+		grid-column: 3/5;
 		grid-row: 1;
-		background-color: gold;
+		#background-color: gold;
+}
+
+
+.details-container h1{
+	text-align: left;
+	padding-top: 1rem;
+	padding-bottom: 1rem
 }
 
 .trailer-container{
@@ -286,9 +292,15 @@ footer{
 		width: 100%;
 		overflow: hidden;
 		padding-top: 56.25%;
-		grid-column: 1/3;
+		grid-column: 1/13;
 		grid-row: 2;
 		#background-color: plum;
+}
+
+.suggestions-container{
+		grid-column: 1/13;
+		grid-row: 3;
+		background-color: pink;
 }
 
 
@@ -305,19 +317,16 @@ footer{
 	}
 
 .cast-container{
-		grid-column: 1/3;
-		grid-row: 3;
+		grid-column: 1/13;
+		grid-row: 4;
 		background-color: blue;
 }
 
 
 @media only screen and (min-width: 768px) {
-	
-
 	#logo{
 		width: 9rem;
 	}
-
 
 	.wrapper{
 		display: grid;
@@ -337,21 +346,29 @@ footer{
 	}
 
 	.movie-cover{
+		display: block;
 		grid-column: 1;
-		grid-row: 1;
+		grid-row: 2;
 		filter: drop-shadow(0 0 0.3rem white);
 	}
 
-	.sinopse-container{
+	.details-container{
 		grid-column: 2/4;
 		grid-row: 2;
-		background-color: gold;
 	}
 
-	.ratings-container{
+	.small-header-container{
+		display: inline-flex;
+		flex-direction: row;
+	}
+
+	.small-header-container p{
+		margin: 1rem; /*left here change this*/
+	}
+
+	.suggestions-container{
 		grid-column: 1;
-		grid-row: 2;
-		background-color: pink;
+		grid-row: 1;
 	}
 
 }
