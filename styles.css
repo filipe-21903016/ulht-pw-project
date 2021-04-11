@@ -259,19 +259,16 @@ footer{
 	}
 
 
-	#grid {
+	.grid {
 		display: grid;
 		grid-template-columns: repeat(12,1fr);
-		grid-auto-rows: minmax(100vh,auto);
+		grid-auto-rows: minmax(50px,auto);
 		grid-gap: 20px;
 		margin-top: 12vh;
 	}
 
-	.left{
-		grid-column: 3/8;
-	}
-
 	.trailer-container{
+		grid-column: 3/8;
 		position: relative;
 		width: 100%;
 		overflow:hidden;
@@ -291,6 +288,8 @@ footer{
 	}
 
 	.cast-container{
+		grid-column: 3/8;
+		grid-row: 2;
 		width: 100%;
 		min-height: 400px;
 		max-height:auto;
