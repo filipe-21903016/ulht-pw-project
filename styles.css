@@ -72,30 +72,30 @@ nav{
 
 .hero-container{
 	width: 100%;
-	height: 55em;
+	height: 80vh;
 }
 
 #hero1{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshot.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/heroshot.jpg");movie-gallery/
 	background-position: center;
 	background-size: cover;
 }
 
 #hero2{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/rick-and-morty.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/rick-and-morty.jpg");
 	background-position: center;
 	background-size: cover;
 }
 
 
 #hero3{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/simpsons.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/simpsons.jpg");
 	background-position: top;
 	background-size: cover;
 }
 
 #hero4{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/m&c.jfif");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/m&c.jfif");
 	background-position: center;
 	background-size: cover;
 }
@@ -145,7 +145,7 @@ main{
 .frame{
 	width:18.75rem;
 	height:12.5rem;
-	border-radius: 15px;
+	border-radius: 5px;
 	background-position: center;
 	filter: drop-shadow(0 0 0.3rem white);
 }
@@ -156,83 +156,84 @@ main{
 }
 
 .frame[id*="indiana"]{
-	background-image: url("imgs/indiana.jpg");
+	background-image: url("imgs/movie-gallery/indiana.jpg");
 }
 
 .frame[id*="indiana"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/indiana.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/indiana.jpg");
 }
 
 .frame[id*="deadpool"]{
-	background-image: url("imgs/deadpool.png");
+	background-image: url("imgs/movie-gallery/deadpool.png");
 }
 
 .frame[id*="deadpool"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/deadpool.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/deadpool.png");
 }
 
 .frame[id*="batman"]{
-	background-image: url("imgs/batman.png");
+	background-image: url("imgs/movie-gallery/batman.png");
 }
 
 .frame[id*="batman"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/batman.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/batman.png");
 }
 
 .frame[id*="sniper"]{
-	background-image: url("imgs/sniper.png");
+	background-image: url("imgs/movie-gallery/sniper.png");
 }
 
 .frame[id*="sniper"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/sniper.png");
-}
-
-.frame[id*="soldado-ryan"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/soldado-ryan.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/sniper.png");
 }
 
 .frame[id*="soldado-ryan"]{
-	background-image: url("imgs/soldado-ryan.png");
+	background-image: url("imgs/movie-gallery/soldado-ryan.png");
 }
 
+.frame[id*="soldado-ryan"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/soldado-ryan.png");
+}
+
+
 .frame[id*="star-wars"]{
-	background-image: url("imgs/the-last-jedi.jpg");
+	background-image: url("imgs/movie-gallery/the-last-jedi.jpg");
 }
 
 .frame[id*="star-wars"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/the-last-jedi.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/the-last-jedi.jpg");
 }
 
 .frame[id*="harry-potter"]{
-	background-image: url("imgs/harry-potter.png");
+	background-image: url("imgs/movie-gallery/harry-potter.png");
 }
 
 .frame[id*="harry-potter"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/harry-potter.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/harry-potter.png");
 }
 
 .frame[id*="et"]{
-	background-image: url("imgs/et.png");
+	background-image: url("imgs/movie-gallery/et.png");
 }
 
 .frame[id*="et"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/et.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/et.png");
 }
 
 .frame[id*="armageddon"]{
-	background-image: url("imgs/armageddon.png");
+	background-image: url("imgs/movie-gallery/armageddon.png");
 }
 
 .frame[id*="armageddon"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/armageddon.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/armageddon.png");
 }
 
 .frame[id*="mib"]{
-	background-image: url("imgs/mib.png");
+	background-image: url("imgs/movie-gallery/mib.png");
 }
 
 .frame[id*="mib"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/mib.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("imgs/movie-gallery/mib.png");
 }
 
 
