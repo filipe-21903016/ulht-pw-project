@@ -255,101 +255,152 @@ footer{
 
 
 .grid {
-		display: grid;
-		grid-template-columns: repeat(4,1fr);
-		grid-auto-rows: minmax(50px,auto);
-		grid-gap: 10px;
-		margin-top: 8vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-auto-rows: minmax(50px,auto);
+	grid-gap: 10px;
+	margin-top: 8vh;
 }
 
 .trailer-container{
-		grid-column:1/5; 
-		grid-row: 1;
-		position: relative;
-		width: 100%;
-		overflow:hidden;
-		padding-top: 56.25%; 
+	grid-column:1/5; 
+	grid-row: 1;
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+	padding-top: 56.25%; 
 }
+
 .trailer-container > iframe{
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		width: 100%;
-		height: 100%;
-		border:none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	border:none;
 }
 
 .right{
-		width: 100%;
-		grid-column: 1/5;
-		grid-row: 2;
-		display: flex;
-		flex-direction: column;
-	}
+	width: 100%;
+	grid-column: 1/5;
+	grid-row: 2;
+	display: flex;
+	flex-direction: column;
+}
 
-	.movie-cover > img{
-		width: 200px;
-		height:250px;
-		border-radius: 15px;
-		display: none;
-	}
+.movie-cover > img{
+	width: 200px;
+	height:250px;
+	border-radius: 15px;
+	display: none;
+}
 
-	.text-container{
-		padding: 10px;
-		margin-top: 1rem;
-		min-height: 270px;
-		max-height: auto;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
+.text-container{
+	padding: 10px;
+	margin-top: 1rem;
+	min-height: 270px;
+	max-height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
-	#title{
-		font-size: 30px;
-	}
+#title{
+	font-size: 30px;
+}
 
-	.properties{
-		width: 50%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		font-size: 12px;
-		flex-wrap: wrap;
-	}
+.properties{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 14px;
+	flex-wrap: wrap;
+}
 
-	#year,#genre{
-		color: rgba(255,255,255,0.6);
-	}
+.properties > *{
+	margin-right:10px;
+}
 
-	#PG{
-		color: white;
-		background-color: rgba(196,196,196,0.69);
-		padding: 3px;
-		text-align: center;
-	}
+#year,
+#genre{
+	color: rgba(255,255,255,0.6);
+}
 
-	.rating-icon{
-		width: 20px;
-		height: 20px;
-	}
+#PG{
+	color: white;
+	background-color: rgba(196,196,196,0.69);
+	padding: 3px;
+	text-align: center;
+}
+
+.rating-icon{		
+	width: 20px;
+	height: 20px;
+}
 	
-	.sinopse{
-		font-size: 14px;
-		margin-top: 8px;
+.sinopse{
+	font-size: 16px;
+	margin-top: 8px;
+}
+
+.cast-container{
+		padding:10px; 
+		grid-column: 1/5;
+		grid-row: 3;
+		width: 100%;
+		min-height: 400px;
+		max-height:auto;
+		margin-top: 0.7rem;
+		display:flex;
+		flex-direction: column;
+}
+
+#cast{
+	margin-bottom: 1rem;
+	font-size: 25px;
+}
+
+.cast-cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-row: minmax(200px,auto); 
+	grid-gap: 1.5rem;
+}
+
+.card{
+	justify-self: center;
+}
+
+.card > img{
+		width: 100px;
+		height:100px;
+		border-radius: 5px;
+}
+
+.card p{
+	width: 100%;
+	text-align: center;
+}
+
+
+.name{
+		font-size: 15px;
 	}
 
-
-
+.character-name{
+	font-size: 14px;
+}
 
 
 @media only screen and (min-width: 768px) {
+	
 	#logo{
 		width: 9rem;
 	}
-
 
 	.grid {
 		grid-gap: 20px;
@@ -367,19 +418,12 @@ footer{
 	}
 
 	.cast-container{
+		padding: 0;
 		grid-column: 3/8;
 		grid-row: 2;
-		width: 100%;
-		min-height: 400px;
-		max-height:auto;
-		margin-top: 0.7rem;
-		display:flex;
-		flex-direction: column;
 	}
 
 	#cast{
-		margin-top: 1rem;
-		margin-bottom: 1rem;
 		font-size: 30px;
 	}
 
@@ -407,19 +451,6 @@ footer{
 		border-radius: 5px;
 	}
 
-	.card p{
-		width: 100%;
-		text-align: center;
-	}
-
-	.name{
-		font-size: 15px;
-	}
-
-	.character-name{
-		font-size: 14px;
-	}
-
 	.right{
 		grid-column: 8/11;
 		grid-row: 1/3;
@@ -430,6 +461,7 @@ footer{
 	}
 
 	.text-container{
+		padding: 0;
 		margin-top: 3rem;
 		min-height: 300px;
 		max-height: auto;
@@ -440,7 +472,6 @@ footer{
 	}
 
 	.properties{
-		width: 60%;
 		font-size: 16px;
 	}
 
