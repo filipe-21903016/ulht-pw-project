@@ -76,26 +76,26 @@ nav{
 }
 
 #hero1{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/heroshot.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs//heroshots//heroshot.jpg");
 	background-position: center;
 	background-size: cover;
 }
 
 #hero2{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/rick-and-morty.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs//heroshots//rick-and-morty.jpg");
 	background-position: center;
 	background-size: cover;
 }
 
 
 #hero3{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/simpsons.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs//heroshots//simpsons.jpg");
 	background-position: top;
 	background-size: cover;
 }
 
 #hero4{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs/heroshots/m&c.jfif");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url("imgs//heroshots//m&c.jfif");
 	background-position: center;
 	background-size: cover;
 }
@@ -156,84 +156,84 @@ main{
 }
 
 .frame[id*="indiana"]{
-	background-image: url("filmes/Indiana-Jones-and-the-Kingdom-of-the-Crystal-Skull/frame-cover.jpg");
+	background-image: url("filmes//Indiana-Jones-and-the-Kingdom-of-the-Crystal-Skull//frame-cover.jpg");
 }
 
 .frame[id*="indiana"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/Indiana-Jones-and-the-Kingdom-of-the-Crystal-Skull/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Indiana-Jones-and-the-Kingdom-of-the-Crystal-Skull//frame-cover.jpg");
 }
 
 .frame[id*="deadpool"]{
-	background-image: url("filmes/Deadpool/frame-cover.jpg");
+	background-image: url("filmes//Deadpool//frame-cover.jpg");
 }
 
 .frame[id*="deadpool"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/Deadpool/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Deadpool//frame-cover.jpg");
 }
 
 .frame[id*="batman"]{
-	background-image: url("filmes/The-Dark-Knight/frame-cover.jpg");
+	background-image: url("filmes//The-Dark-Knight//frame-cover.jpg");
 }
 
 .frame[id*="batman"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/The-Dark-Knight/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//The-Dark-Knight//frame-cover.jpg");
 }
 
 .frame[id*="sniper"]{
-	background-image: url("filmes/American-Sniper/frame-cover.jpg");
+	background-image: url("filmes//American-Sniper//frame-cover.jpg");
 }
 
 .frame[id*="sniper"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/American-Sniper/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//American-Sniper//frame-cover.jpg");
 }
 
 .frame[id*="soldado-ryan"]{
-	background-image: url("filmes/Saving-Private-Ryan/frame-cover.jpg");
+	background-image: url("filmes//Saving-Private-Ryan//frame-cover.jpg");
 }
 
 .frame[id*="soldado-ryan"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/Saving-Private-Ryan/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Saving-Private-Ryan//frame-cover.jpg");
 }
 
 
 .frame[id*="star-wars"]{
-	background-image: url("filmes/Star-Wars-The-Last-Jedi/frame-cover.jpg");
+	background-image: url("filmes//Star-Wars-The-Last-Jedi//frame-cover.jpg");
 }
 
 .frame[id*="star-wars"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/Star-Wars-The-Last-Jedi/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Star-Wars-The-Last-Jedi//frame-cover.jpg");
 }
 
 .frame[id*="harry-potter"]{
-	background-image: url("filmes/Harry-Potter-and-the-Deathly-Hallows–Part-2/frame-cover.jpg");
+	background-image: url("filmes//Harry-Potter-and-the-Deathly-Hallows–Part-2//frame-cover.jpg");
 }
 
 .frame[id*="harry-potter"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/Harry-Potter-and-the-Deathly-Hallows–Part-2/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Harry-Potter-and-the-Deathly-Hallows–Part-2//frame-cover.jpg");
 }
 
 .frame[id*="Falcon-Winter-Soldier"]{
-	background-image: url("series/The-Falcon-and-the-Winter-Soldier/frame-cover.jpg");
+	background-image: url("series//The-Falcon-and-the-Winter-Soldier//frame-cover.jpg");
 }
 
 .frame[id*="Falcon&WinterS"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series/The-Falcon-and-the-Winter-Soldier/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//The-Falcon-and-the-Winter-Soldier//frame-cover.jpg");
 }
 
 .frame[id*="armageddon"]{
-	background-image: url("filmes/Armageddon/frame-cover.png");
+	background-image: url("filmes//Armageddon//frame-cover.png");
 }
 
 .frame[id*="armageddon"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes/Armageddon/frame-cover.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Armageddon//frame-cover.png");
 }
 
 .frame[id*="TheFlash"]{
-	background-image: url("series/The-Flash/frame-cover.jpg");
+	background-image: url("series//The-Flash//frame-cover.jpg");
 }
 
 .frame[id*="TheFlash"]:hover{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series/The-Flash/frame-cover.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//The-Flash//frame-cover.jpg");
 }
 
 
