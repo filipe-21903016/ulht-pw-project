@@ -443,7 +443,7 @@ footer{
 	}
 
 	#wordcloud{
-		width: 100%
+		width: 100%;
 	}
 
 
@@ -466,9 +466,6 @@ footer{
 	font-size: 2.19rem;
 	}
 
-	
-
-	
 	#logo{
 		width: 9rem;
 	}
@@ -568,8 +565,8 @@ footer{
 
 	.video-container{
 		grid-column: 4/10;
-		background-color: white;
 		grid-row: 1;
+		border-radius: 10px;
 	}
 
 
@@ -601,6 +598,13 @@ footer{
 		grid-column: 7/13;
 		background-color: royalblue;
 		grid-row: 4;
+	}
+
+	.frames-grid{
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(18rem,auto)); 
+		margin-top: 12vh;
+		padding: 3rem;
 	}
 	
 }
