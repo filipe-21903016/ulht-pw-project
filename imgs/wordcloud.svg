@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900">
+<defs>
+<style type="text/css"> @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap); </style>
+</defs>
+<g>
+<g transform="translate(798,450) rotate(0,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-399.5" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Rotten tomatoes</text>
+</g>
+<g transform="translate(796,374) rotate(0,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-297.5" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Mandalorian</text>
+</g>
+<g transform="translate(800,534) rotate(0,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-226" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Deadpool</text>
+</g>
+<g transform="translate(792,290) rotate(0,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-238.5" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Simpsons</text>
+</g>
+<g transform="translate(814,744) rotate(-54.18122398742019,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-228.5" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Superbad</text>
+</g>
+<g transform="translate(796,206) rotate(0,0,0)">
+<text fill="rgb(255,255,255)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-246.5" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Superman</text>
+</g>
+<g transform="translate(634,598) rotate(0,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-200" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Don Jon</text>
+</g>
+<g transform="translate(618,662) rotate(0,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-152" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Avatar</text>
+</g>
+<g transform="translate(1066,584) rotate(-26.199885128754147,0,0)">
+<text fill="rgb(215,216,219)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-129" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">Flash</text>
+</g>
+<g transform="translate(994,694) rotate(0,0,0)">
+<text fill="rgb(255,255,255)" stroke="none" font-family="Roboto" font-size="109.359px" font-style="normal" font-weight="normal" x="-127" y="-43.743700000000004" text-anchor="start" dominant-baseline="alphabetic" fill-opacity="1">IMDb</text>
+</g>
+</g>
+</svg>
