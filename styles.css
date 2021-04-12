@@ -643,6 +643,10 @@ footer{
 		text-align: center;
 	}
 
+	tr:hover {
+		border-style: solid;
+		border-color: white;
+	  }
 	
 
 }
