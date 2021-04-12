@@ -242,6 +242,46 @@ main{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//The-Flash//frame-cover.jpg");
 }
 
+.frame[id*="borat"]{
+	background-image: url("filmes//Borat//frame-cover.jpeg");
+}
+
+.frame[id*="borat"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Borat//frame-cover.jpeg");
+}
+
+.frame[id*="brooklyn"]{
+	background-image: url("series//Brooklyn-99//frame-cover.jpg");
+}
+
+.frame[id*="brooklyn"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//Brooklyn-99//frame-cover.jpg");
+}
+
+.frame[id*="rick-morty"]{
+	background-image: url("series//Rick-Morty//frame-cover.jpg");
+}
+
+.frame[id*="rick-morty"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//Rick-Morty//frame-cover.jpg");
+}
+
+.frame[id*="ride-along"]{
+	background-image: url("filmes//Ride-Along//frame-cover.jpg");
+}
+
+.frame[id*="ride-along"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//Ride-Along//frame-cover.jpg");
+}
+
+.frame[id*="modern-family"]{
+	background-image: url("series//Modern-Family//frame-cover.jpg");
+}
+
+.frame[id*="modern-family"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//Modern-Family//frame-cover.jpg");
+}
+
 
 
 .movie-title{
