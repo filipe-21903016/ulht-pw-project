@@ -421,13 +421,11 @@ footer{
 	.tabela-tecnicas-container{
 		grid-column: 1/13;
 		grid-row: 2;
-		background-color: green;
 	}
 
 	.tabela-inventario-container{
 		grid-column: 1/13;
 		grid-row: 3;
-		background-color: red;
 	}
 
 	.layouts-container{
@@ -453,6 +451,31 @@ footer{
 		grid-row: 6;
 	}
 
+	table, td, th {
+		border: 1px solid white;
+	  }
+
+	table{
+		border: 1px solid white;
+		width: 100%;
+		border-collapse: collapse;
+		margin-right: 1rem;
+	}
+
+	@keyframes spring {
+		0%   {
+			top: 100%;  
+			width: 100%;
+		}
+		50% {
+			top: 100%;
+			width: 30%;
+		}
+		100%   {
+			top: 100%;  
+			width: 90%;
+		}
+	  }
 
 @media only screen and (min-width: 768px) {
 	.frame{
@@ -567,19 +590,18 @@ footer{
 		grid-column: 4/10;
 		grid-row: 1;
 		border-radius: 10px;
+		animation: pulse 1s;
 	}
 
 
 	.tabela-tecnicas-container{
 		grid-column: 1/7;
 		grid-row: 2;
-		background-color: green;
 	}
 
 	.tabela-inventario-container{
 		grid-column: 7/13;
 		grid-row: 2;
-		background-color: red;
 	}
 
 	.layouts-container{
@@ -606,5 +628,21 @@ footer{
 		margin-top: 12vh;
 		padding: 3rem;
 	}
+
+	table, td, th {
+		border: 1px solid white;
+	  }
+
+	table{
+		border: 1px solid white;
+		border-collapse: collapse;
+		margin-right: 1rem;
+		width: 90%; 
+		height: 100%;
+		animation: spring 1s;
+		text-align: center;
+	}
+
 	
+
 }
