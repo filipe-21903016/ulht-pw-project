@@ -446,6 +446,8 @@ footer{
 		width: 100%;
 	}
 
+
+
 	.tree-container{
 		grid-column: 1/13;
 		background-color: royalblue;
@@ -587,10 +589,10 @@ footer{
 		grid-row: 3; 
 	}
 
-
 	.wordcloud-container{
 		grid-column: 1/7;
 		grid-row: 4;
+		background-color: purple;
 	}
 
 	.tree-container{
