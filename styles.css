@@ -282,6 +282,45 @@ main{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//Modern-Family//frame-cover.jpg");
 }
 
+.frame[id*="when-you-are-strange"]{
+	background-image: url("filmes//When-you-are-strange//frame-cover.jpg");
+}
+
+.frame[id*="when-you-are-strange"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//When-you-are-strange//frame-cover.jpg");
+}
+
+.frame[id*="last-dance"]{
+	background-image: url("series//The-Last-Dance//frame-cover.png");
+}
+
+.frame[id*="last-dance"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//The-Last-Dance//frame-cover.png");
+}
+
+.frame[id*="james-may"]{
+	background-image: url("series//James-May-Our-Man-In-Japan//frame-cover.jpg");
+}
+
+.frame[id*="james-may"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//James-May-Our-Man-In-Japan/frame-cover.jpg");
+}
+
+.frame[id*="hip-hop"]{
+	background-image: url("series//Hip-Hop-Evolution//frame-cover.jfif");
+}
+
+.frame[id*="hip-hop"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("series//Hip-Hop-Evolution//frame-cover.jfif");
+}
+
+.frame[id*="this-is-it"]{
+	background-image: url("filmes//This-is-it//frame-cover.png");
+}
+
+.frame[id*="this-is-it"]:hover{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("filmes//This-is-it//frame-cover.png");
+}
 
 
 .movie-title{
