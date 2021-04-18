@@ -509,7 +509,6 @@ footer{
 
 	.layouts-container{
 		grid-column: 1/13;
-		background-color: gold;
 		grid-row: 4; 
 	}
 
@@ -525,17 +524,49 @@ footer{
 		grid-row: 7;
 	}
 
+
+	.form-container  fieldset{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		height: auto;
+		width: 100%;
+	}
+
+	.form-container > fieldset section{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding: 15px;
+		align-items: center;
+	}
+
+	input[type="submit"]{
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	#sugestoes-text{
+		color: black;
+		margin: 20px;
+	}
+
 	#wordcloud{
 		width: 100%;
 	}
 
-
-
 	.tree-container{
 		grid-column: 1/13;
-		background-color: royalblue;
 		grid-row: 6;
 	}
+
+	#tree{
+		width: 100%;
+		padding-right:50px;
+	}
+
+
 
 	table, td, th {
 		border: 1px solid white;
@@ -563,6 +594,13 @@ footer{
 		}
 	  }
 
+
+
+
+
+
+
+	
 @media only screen and (min-width: 768px) {
 	.frame{
 		width:18.0rem;
@@ -692,26 +730,21 @@ footer{
 
 	.layouts-container{
 		grid-column: 1/13;
-		background-color: gold;
 		grid-row: 3; 
 	}
 
 	.wordcloud-container{
 		grid-column: 1/7;
 		grid-row: 4;
-		background-color: purple;
 	}
 
-	.form-container{
-		grid-column: 1/13;
-		grid-row: 5;
-	}
 
 	.tree-container{
 		grid-column: 7/13;
-		background-color: royalblue;
 		grid-row: 4;
 	}
+
+
 
 	.frames-grid{
 		display: grid;
@@ -738,6 +771,6 @@ footer{
 		border-style: solid;
 		border-color: white;
 	  }
-	
+
 
 }
