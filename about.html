@@ -42,29 +42,29 @@
 				  <tr>
 					<th>Layouts</th>
 					<td>Usou-se o CSS grid e CSS flexbox para construção de layouts</td>  
-					<td>TBA</td>
+					<td>Organização dos conteúdos na página inicial (display das categorias e cartões) e organização dos conteúdos nas páginas das series/filmes (cast/detalhes/trailer/capa)</td>
 				  </tr>
 				  <tr>
 					<th>Responsividade</th>
 					<td>Foram usadas media queries que adaptam o layout para telemovel e PC consoante o tamanho da janela do browser.</td>
-					<td>TBA</td> 
+					<td>Todas as pagínas do nosso website são responsivas, na medida em que o ecrã terá de ter pelo menos 768px de largura, senão apresentará um display diferente do original, sendo considerado responsivo</td> 
 				  </tr>
 				  <tr>
 					<th>Seletores</th>
-					<td>Foram usados seletores de ...</td>
-					<td>TBA</td> 
+					<td>Foram usados seletores de: classe | id | > | *</td>
+					<td>Respectivamente, cartões na página inicial/séries/filmes; nos detalhes de cada filme (ex: restrições de idade); no container que possuí o trailer do filme, na página do filme; para definir a cor/tipo de letra ao longo do site</td> 
 				  </tr>
 				  <tr>
 					<th>Etiquetas</th>
-					<td>HTML5 main, header, article, footer, figure...</td>
-					<td>TBA</td>  
+					<td>HTML5 main, header, article, footer, figure, aside, table, form, nav, figcaption, section, article</td>
+					<td>Estes elementos foram usados ao longo de todas as páginas no nosso website, porém apenas na página sobre os detalhes técnicos é que estão presentes todos os elementos enumerados</td>  
 				  </tr>
 				</tbody>
 				<tfoot>
 				  <tr>
 					<th>Animações</th>
-					<td>Foram feitas animações usando keyframes que permite …</td> 
-					<td>TBA</td> 
+					<td>Foram feitas animações usando keyframes que permite dar alguma esteticidade durante o carregamento da página web</td> 
+					<td>Nas páginas respectivas ao tema que escolhemos, obtámos por não usar keyframes, por não ser muito "profissional"(usámos animações à base do :hover), no entanto como era um requesito, usámos nesta página nas duas tabelas e também no vídeo do site</td> 
 				  </tr>
 				</tfoot>
 			  </table>    
@@ -80,27 +80,25 @@
 				<tbody>
 				  <tr>
 					<th>Páginas</th>
-					<td>TBA</td>  
+					<td>24</td>  
 				  </tr>
 				  <tr>
 					<th>Imagens</th>
-					<td>TBA</td>  
+					<td>127</td>  
 				  </tr>
 				  <tr>
 					<th>Links (externos)</th>
-					<td>TBA</td>  
+					<td>10</td>  
 				  </tr>
 				  <tr>
 					<th>Vídeos</th>
-					<td>TBA</td>  
+					<td>21</td>  
 				  </tr>
-				</tbody>
-				<tfoot>
 				  <tr>
 					<th>Animações</th>
-					<td>TBA</td>  
+					<td>38</td>  
 				  </tr>
-				</tfoot>
+				</tbody>
 			  </table>    
 		</aside>
 		<section class="layouts-container"></section>		
@@ -153,6 +151,86 @@
 
 		</aside>
 		<aside class="tree-container"></aside>
+
+		<form method="post" action="tomasneto2000@gmail.com" class="form-container">
+            <fieldset>
+                <legend>Opiniões</legend>
+                <br>
+                <form method="get">
+                    <label for="clareza">Clareza: (entre 0 e 100)</label>
+                    <input type="range" id="vol" name="cla" min="0" max="100" oninput="clareza.value = parseInt(cla.value)">
+                    <output name="clareza" for="cla">50</output>
+                </form>
+                <br><br>
+
+                <label for="rigor">Rigor (número de erros)</label>
+                <br>
+                <form>
+                    <input type="radio" id="muitos" name="rigor" value="muitos">
+                    <label for="muitos">Muitos</label><br>
+                    <input type="radio" id="suðuroy" name="rigor" value="alguns">
+                    <label for="alguns">Alguns</label><br>
+                    <input type="radio" id="streymoy" name="rigor" value="poucos">
+                    <label for="poucos">Poucos</label><br>
+                    <input type="radio" id="streymoy" name="rigor" value="nenhum">
+                    <label for="nenhum">Nenhum</label>
+                </form>
+                <br> 
+
+                <label for="profundidade">Significância (focado no importante, não trivial):</label>
+                <br>
+                <form>
+                    <input type="radio" id="objetivo" name="objetivo" value="objetivo">
+                    <label for="objetivo">Objetivo</label><br>
+                    <input type="radio" id="intermedio" name="intermedio" value="intermedio">
+                    <label for="intermedio">Intermédio</label><br>
+					<input type="radio" id="redundante" name="redundante" value="redundante">
+                    <label for="redundante">Redundante</label><br>
+                </form>
+                <br> 
+
+                <label for="originalidade">Originalidade (criativo e original):</label>
+                <br>
+                <form>
+                    <input type="radio" id="co" name="originalidade" value="co">
+                    <label for="co">Criativo e original</label><br>
+                    <input type="radio" id="original" name="originalidade" value="original">
+                    <label for="original">Apenas original</label><br>
+                    <input type="radio" id="criativo" name="originalidade" value="criativo">
+                    <label for="criativo">Apenas criativo</label><br>
+                    <input type="radio" id="nenhum" name="originalidade" value="nenhum">
+                    <label for="nenhum">Nenhum dos dois</label>
+                </form>
+                <br>
+
+                <label for="clubes">Assinale os atributos que classificam este website:</label>
+                <br>
+                <form>
+                    <input type="checkbox" id="inovador" name="inovador" value="inovador">
+                    <label for="inovador"> Inovador</label><br>
+                    <input type="checkbox" id="aparencia" name="aparencia" value="aparencia">
+                    <label for="aparencia"> Boa aparência</label><br>
+                    <input type="checkbox" id="informativo" name="informativo" value="informativo">
+                    <label for="informativo"> Informativo</label><br>
+                    <input type="checkbox" id="ofensivo" name="ofensivo" value="ofensivo">
+                    <label for="ofensivo"> Ofensivo/Impróprio</label><br><br>
+                </form>
+
+                <label for="locais">Sugestões de melhoria:</label>
+                <br>
+                <textarea id="locais" name="locais" rows="11" cols="100"></textarea>
+                <br><br>
+
+                <form>
+                    <label for="opiniao">Classificação global do site: (1 a 10)</label>
+                    <input type="range" name="cla" min="0" max="10" oninput="clareza.value = parseInt(cla.value)">
+                    <output name="clareza" for="cla">5</output>
+                </form>
+				<br>
+
+                <input type="submit" style="color: black; height:30px; width:50px">
+            </fieldset>
+        </form>
 
 	</main>
 </body>
